@@ -1,3 +1,6 @@
+# jeep
+data/
+# origin below
 logs/
 wandb/
 models/
