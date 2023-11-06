@@ -43,14 +43,14 @@ report_training_batch_acc="--report-training-batch-acc"
 
 # training hyper-params
 context_length=30
-warmup=100
+warmup=500
 batch_size=128
 valid_batch_size=128
 accum_freq=1
-lr=1.7e-5
+lr=1e-5
 wd=0.001
 max_epochs=20 # or you can alternatively specify --max-steps
-valid_step_interval=500
+valid_step_interval=999999
 valid_epoch_interval=1
 vision_model=ViT-B-16
 text_model=RoBERTa-wwm-ext-base-chinese

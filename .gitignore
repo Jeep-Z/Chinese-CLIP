@@ -1,5 +1,7 @@
 # jeep
 data/
+_test.py
+
 # origin below
 logs/
 wandb/
